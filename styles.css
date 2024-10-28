@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: url('images/grill-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #ff6347;
+}
+
+section {
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+#menu .menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex-basis: 22%;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contact ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+#contact ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #da4126;
+}
+
+footer {
+    background: #020202;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
